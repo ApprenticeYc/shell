@@ -13,3 +13,10 @@ a1 + b1
 EOF
 `
 echo The final answer for this mess is $var5
+
+# grammer as following:
+#variable=$(bc << EOF
+#Options
+#Statements
+#Expressions
+#EOF)
